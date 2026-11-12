@@ -1,0 +1,82 @@
+form {
+    background: #78b1ff;
+    border: 2px solid #4d8ee6;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 500px; /* Wider form */
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+form label {
+    display: block;
+    text-align: left;
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* Style ALL inputs, selects and textareas */
+form input[type="text"],
+form input[type="tel"],
+form input[type="file"],
+form select,
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.95);
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.5);
+}
+
+/* Submit button */
+form input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #2d6cdf;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+form input[type="submit"]:hover {
+    background: #1f5bcc;
+    transform: translateY(-2px);
+}
+.rp {
+    background: linear-gradient(135deg, #78b1ff, #5a9dff);
+    border: 2px solid #4d8ee6;
+    margin: 40px auto 25px;
+    width: 90%;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.rp h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
